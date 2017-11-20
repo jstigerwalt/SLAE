@@ -1,4 +1,4 @@
 # SLAE
 SecurityTube Linux Assembly Expert
 
-Blog for SLAE Assignments 1-7 - slae.whiteknightabs.com
+Blog for SLAE Assignments 1-7 - <href>slae.whiteknightabs.com</href>
