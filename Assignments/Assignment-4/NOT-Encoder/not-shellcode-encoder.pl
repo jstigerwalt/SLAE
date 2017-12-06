@@ -59,19 +59,19 @@ foreach $x (@enc) {
 	push @encx, $fx;
 	push @encxx, $ix;
 	
-	if ($encoded eq "0x00") {
+	if ($ix eq "0x00") {
 		warn "Shellcode contains: \"0x00\" ";
 	}
-	if ($encoded eq "0xbb") {
+	if ($ix eq "0xbb") {
 		warn "Shellcode contains: \"0xbb\" ";
 	}
-	if ($encoded eq "0x61") {
+	if ($ix eq "0x61") {
 		warn "Shellcode contains: \"0x61\" ";
 	}
-	if ($encoded eq "0xa0") {
+	if ($ix eq "0xa0") {
 		warn "Shellcode contains: \"0xa0\" ";
 	}
-	if ($encoded eq "0xc6") {
+	if ($ix eq "0xc6") {
 		warn "Shellcode contains: \"0xc6\" ";
 	}
 	
