@@ -1,0 +1,24 @@
+Perl Iteration Encoder:
+
+Change Key and Iteration values to get differnt differnt decoder stubs, script will generate decoder stub plus shellcode included.
+If something isnt working submit an issue and I will check it out. 
+
+
+Perl Decoder:
+
+Just there for your reference on how it works. Encoder script covers the decoder stub, just copy and paste into shellcode.c
+GCC the C file and run the shellcode. 
+
+Shellcode.c file:
+
+Copy and paste from Perl Encoder to shellcode.c file, it works, super easy and simple. 
+
+
+Tested on Kali Linux x86 Only. 
+
+Does not check for bad chars, future enchancement you could say.
+
+Shellcode does not increase in size per iteration, stays the same over 1000 iterations. 
+
+Maybe sleeep function or halt could be used per iteration to time out a sandbox, maybe. Dont have to worry about size of shellcode
+it never changes.
