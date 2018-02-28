@@ -1,3 +1,8 @@
+; Author: John Stigerwalt 
+; SLAE: Assignment #3
+; Website: slae.whiteknightlabs.com/wordpress
+; Reference: http://www.hick.org/code/skape/papers/egghunt-shellcode.pdf 
+
 global _start
 
 section .text
