@@ -1,9 +1,7 @@
-/* 
- *  Title:    x86 Basic Egg Hunter
- *  Author:   John Stigerwalt
- *  Website:  slae.whiteknightlabs.com 
- *
-*/
+
+# Author: John Stigerwalt
+# SLAE: Assignment #3
+# Website: slae.whiteknightlabs.com/wordpress
  
 #include <stdio.h>
 #include <stdlib.h>
