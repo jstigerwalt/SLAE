@@ -1,3 +1,9 @@
+/*
+* 	Author: John Stigerwalt
+* 	SLAE: Assignment #3
+* 	Website: slae.whiteknightlabs.com/wordpress
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
