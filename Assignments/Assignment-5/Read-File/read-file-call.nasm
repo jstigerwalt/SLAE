@@ -1,3 +1,10 @@
+; Author: John Stigerwalt
+; SLAE: Assignment #5
+; Website: slae.whiteknightlabs.com
+; Shellcode: Read-File "/etc/passwd"
+; Metasploit Re-Write of Read-File x86 linux shellocode string paramter = /etc/passwd
+; Shellcode using jmp-call-pop method
+
 global _start
 
 section .text
