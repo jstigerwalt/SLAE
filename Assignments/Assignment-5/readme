@@ -6,3 +6,6 @@ I have re-written the shellcode 2 different ways:
 - push dword method
 
 I have labeled them with call or push at the end of each shellcode NASM file.
+
+Author: John Stigerwalt
+Website: slae.whiteknightlabs.com
