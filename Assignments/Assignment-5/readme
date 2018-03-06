@@ -1,1 +1,8 @@
+The Shellcode you will find here is and has been re-creaeted from generated Metasploit shellcode with fixed parameters.
 
+I have re-written the shellcode 2 different ways:
+
+- jmp-call-pop method
+- push dword method
+
+I have labeled them with call or push at the end of each shellcode NASM file.
