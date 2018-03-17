@@ -8,6 +8,20 @@ Important Arguments:
 
 The 2 arguments must be used to pull in the mcrypt encryption/decryption modules or errors will happen when you compile with GCC.
 
+
+
+
+How to install Mcrypt.h:
+
+sudo apt-get install libmcrypt-dev libreadline-dev
+
+Try This if it is still not working:  sudo aptitude install libmcrypt-dev
+
+/* This has been tested and confirmed working on kali Linux x86 */
+
+
+
+
 Encrypter is using Two-Fish encryption and CFB Feedback cipher block which is basically CBC only in reverse.
 
 CFB Feedback Info:  https://en.wikipedia.org/wiki/Block_cipher_mode_of_operation#Cipher_Feedback_(CFB)
