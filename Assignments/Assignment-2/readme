@@ -1,1 +1,6 @@
 
+Here you will find my LSAE Assignment #2. This covers the TCP Reverse Shell. 
+TCP Reverse Shell = 73 bytes
+
+See shellcode.c file
+
